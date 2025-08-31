@@ -1,0 +1,13 @@
+workflows:
+  react-native:
+    name: Build React Native (Expo)
+    max_build_duration: 60
+    environment:
+      node: 18
+      npm: 9
+    scripts:
+      - npm install
+      - npx expo prebuild
+      - npx expo run:android --variant release
+    artifacts:
+      - android/app/build/outputs//*.apk

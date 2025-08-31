@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "groviq-vendor-order-details",
+    "slug": "snack-1dc2a7d7-15e5-40bc-8f99-9e158d71b5fd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.happyrao.snack1dc2a7d715e540bc8f999e158d71b5fd"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3a56e3e0-52c6-4fc2-b315-96d09a5e0527"
+      }
+    }
+  }
+}
